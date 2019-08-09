@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>畅行网络—咨讯</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/backtop.css">
+    <link rel="shortcut icon" href=" images/logo.ico">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/tweenmax.min.js"></script>
+    <script type="text/javascript" src="js/page.js"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+</head>
+<body class="grey" >
+<div class="header">
+  <div class="header_bar">
+    <h1 class="logo"> <a href="index.html"><img src="picture/logo.png" title="首页" alt="首页"></a> </h1>
+    <span style="margin-left:80%; line-height:34px;color:#fff;">咨询电话：0312-6783108</span>
+    <ul id="social" class="social">
+      <li class="slist"> <a class="sfocus" href="javascript:void(0);">官方微博</a>
+        <div class="sqrcode_wrap"> <a class="sqrcode" href="javascript:void(0);"><img src="picture/weibo185.png" title="扫一扫"  alt="扫一扫" /></a> <a class="slink" href="javascript:void(0);">新浪微博</a> </div>
+      </li>
+      <li class="slist"> <a class="sfocus" href="javascript:void(0);">官方微信</a>
+        <div class="sqrcode_wrap"> <a class="sqrcode" href="javascript:void(0);"><img src="picture/weixin185.png" title="扫一扫"  alt="扫一扫" /></a> <a class="slink" href="javascript:void(0);">微信</a> </div>
+      </li>
+    </ul>
+  </div>
+  <input type="hidden" value="5" id="hidTypeId" />
+  <div id="menu" class="menu">
+    <ul class="mwrap">
+      <li class="mli"> <a href="index.html" class="mlink" id="topMenu1"> <span class="mico mico_home"><span class="micoi"></span></span> <span class="mname">首页</span> </a> </li>
+      <li class="mli"> <a href="abouts.html" class="mlink curr" id="topMenu2"> <span class="mico mico_about"><span class="micoi"></span></span> <span class="mname">关于</span> </a> </li>
+      <li class="mli"> <a href="service.html" class="mlink" id="topMenu3"> <span class="mico mico_service"><span class="micoi"></span></span> <span class="mname">服务</span> </a> </li>
+      <li class="mli"> <a href="anli.html" class="mlink" id="topMenu4"> <span class="mico mico_case"><span class="micoi"></span></span> <span class="mname">案例</span> </a> </li>
+      <li class="mli"> <a href="news.html" class="mlink" id="topMenu5"> <span class="mico mico_news"><span class="micoi"></span></span> <span class="mname">动态</span> </a> </li>
+      <li class="mli"> <a href="contact.html" class="mlink" id="topMenu6"> <span class="mico mico_contact"><span class="micoi"></span></span> <span class="mname">联系</span> </a> </li>
+    </ul>
+    <div class="mshadow"></div>
+  </div>
+</div>
+<script type="text/javascript">
+        var typeid= document.getElementById("hidTypeId").value;
+        
+      for(var i = 1 ;i <= 6;i++)
+      {
+        if(i == typeid){
+            document.getElementById("topMenu" + i).className="mlink curr";
+        }else
+        {
+             document.getElementById("topMenu" + i).className="mlink";
+        }
+      }
+
+    </script>
+<div class="header_bg"></div>
+<div class="nqBody">
+  <div id="nqType" class="nqType">
+    <ul id="nqtWrap" class="nqtWrap">
+      
+      <li><a href='news.html'>公司动态</a></li>
+      
+      <li><a href="hyzx.html">行业资讯</a></li>
+      
+    </ul>
+    <span class="nqpNameCn">行业资讯</span> <span class="nqpNameEn">NEWS</span> </div>
+  <ul id="nqlWrap" class="nqlWrap">
+    <li class="nqli">
+      <div class="nqlDate"><span class="nqldDay">02</span><span class="nqldMy">2019-08</span></div>
+      <a class="nqlTitle" href="hyzx1.html" target="_blank">如何简单快速的创建网站，让您的业务上线</a>
+      <div class="nqlSum">
+      如何创建一个网站有很多方法。您可以使用HTML或其他工 具创建它。如果你打算使用HTML，你必须精通使用那里的所有编程语言。除了HTML以外，另一个可 以帮助你的工具是Dreamweaver。上...</div>
+      <div class="nqlDetDate">2019-08-02</div>
+    </li><li class="nqli">
+      <div class="nqlDate"><span class="nqldDay">02</span><span class="nqldMy">2019-08</span></div>
+      <a class="nqlTitle" href="hyzx2.html" target="_blank">『页面设计』　如何巧用色彩打造动人心弦的网页设计</a>
+      <div class="nqlSum">
+          根据Kissmetrics 的说法，当我们看到一个色彩的时候，信息会传递到大脑的下丘脑的某个区域中。接下来，信号会进一步传递到脑垂体，然后到甲状腺腺体。这也就意味着，色彩会刺激大脑和腺体分...</div>
+      <div class="nqlDetDate">2019-08-02</div>
+    </li><li class="nqli">
+      <div class="nqlDate"><span class="nqldDay">02</span><span class="nqldMy">2019-08</span></div>
+      <a class="nqlTitle" href="hyzx3.html" target="_blank">选择网站空间应该从哪些方面着手</a>
+      <div class="nqlSum">
+          网站空间作为一个网站的母体，无疑极为关键，也是网站能否持续运营的核心要素。正是如此越来越多的站长开始注意到网站空间的重要性，于是在投资上也乐意增加一些，从而让网站空间的速度更...</div>
+      <div class="nqlDetDate">2019-08-02</div>
+    </li>
+  </ul>
+  <img src="picture/noinfo.png" style=" display:none; margin:0 auto;" />
+  <div class="nav">
+    <div class="sort-page">
+      <a>首页</a>
+      <a class="page_yes">1</a>
+      <a href="list_6_2.html">2</a>
+      <a href="list_6_3.html">3</a>
+      <a href="list_6_4.html">4</a>
+      <a href="list_6_5.html">5</a>
+      <a href="list_6_6.html">6</a>
+      <a href="list_6_7.html">7</a>
+      <a href="list_6_2.html">下一页</a>
+      <a href="list_6_15.html">末页</a>
+    </div>
+  </div>
+</div>
+<div class="webSite">
+    <ul class="wsLink" >
+        <li class="wslList" style="margin-left:50px;"> <a  class="wslName" href="abouts.html"><span>关于我们</span></a> 
+
+            <ul class="wslcQuery">
+                <li> <a>公司概况</a>
+                </li>
+                <li> <a>我们的观点</a>
+                </li>
+                <li> <a>我们的优势</a>
+                </li>
+                <li> <a>企业文化</a>
+                </li>
+            </ul>
+        </li>
+        <li class="wslList"><a  class="wslName" href="abouts.html"><span>服务项目</span>
+
+            <ul class="wslcQuery">
+                <li> <a>品牌网站建设</a>
+                </li>
+                <li> <a>响应式网站</a>
+                </li>
+                <li> <a>网站优化推广</a>
+                </li>
+                <li> <a>网站运营维护</a>
+                </li>
+            </ul>
+        </li>
+        <li class="wslList"><a  class="wslName" href="news.html"><span>新闻动态</span>
+
+            <ul class="wslcQuery">
+                <li> <a>公司动态</a>
+                </li>
+                <li> <a>行业资讯</a>
+                </li>
+            </ul>
+        </li>
+        <li class="wslList"><a  class="wslName" href="contact.html"><span>联系我们</span>
+
+            <ul class="wslcQuery">
+                <li> <a>联系方式</a>
+                </li>
+                <li> <a>需求提交</a>
+                </li>
+            </ul>
+        </li>
+        <li class="wslList">
+                <ul  class="wslcQuery">
+                        <li><span class="wscKey"><img src="picture/index_hezuo6.png" alt=""></span>
+                        </li>
+                </ul>
+        </li>
+       
+    </ul>     
+<div class="textLink">
+
+    <div class="back">
+            <div class="tlHeader">友情链接 <span class="tlNameEn">/ LINK</span></div>
+    </div>
+    
+    <ul class="linkQuery">
+        <li><a href='http://www.bdgp-led.com/' target='_blank'>保定市畅行网络技术有限公司</a> 
+        </li>
+        <li><a href='https://www.11467.com/qiye/33601816.htm' target='_blank'>保定博楷电子科技有限公司</a> 
+        </li>
+        <li><a href='http://www.bdgp-led.com/' target='_blank'>北京辉煌阳光科技有限公司</a> 
+        </li>
+        <li><a href='http://www.bdgp-led.com/' target='_blank'>河北欧亚照明科技有限公司</a> 
+        </li>
+    </ul>
+    <!-- <div class="fengexian"></div> -->
+    <div class="footerWrap">
+        <p>Copyright ? 2012-2019.    保定市畅行网络技术有限公司  版权所有</p>
+    </div>
+</div>
+</div>
+<div class="footer"> 
+    <div id="backTop" class="backTop">  <a class="btqrShow" style="background-image:none;text-align:center;color:#fff;font-size:18px;line-height:66px;text-decoration:none;" href="tencent://message/?uin=763976120">客服</a>
+        <div id="btqrImg" class="btqrImg">
+            <img src="picture/qq172.png" alt="返回顶部" title="返回顶部">
+        </div>
+        <a id="btqrShow" class="btqrShow" href="javascript:void(0);"></a>
+        <a id="btBtn" class="btBtn" href="javascript:void(0);"></a>
+    </div>
+</html>

@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>畅行网络—案例</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+	<link rel="stylesheet" href="css/head.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<link rel="stylesheet" href="css/backtop.css">
+	<link rel="stylesheet" href="css/anli.css">
+	<!-- <link rel="stylesheet" href="css/pictureViewer.css"> -->
+	<link rel="shortcut icon" href=" images/logo.ico">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<!-- <script type="text/javascript" src="js/tweenmax.min.js"></script> -->
+	<script type="text/javascript" src="js/page.js"></script>
+	<script src="js/common.js" type="/templets/lanse/style/javascript"></script>
+</head>
+
+<body>
+	<div class="header">
+		<div class="header_bar">
+			<h1 class="logo">
+				<a href="index.html"><img src="picture/logo.png" title="首页" alt="首页"></a></h1>
+			<span style="margin-left:80%; line-height:34px;color:#fff;">咨询电话：0312-6783108</span>
+			<ul id="social" class="social">
+
+				<li class="slist">
+					<a class="sfocus" href="javascript:void(0);">官方微博</a>
+					<div class="sqrcode_wrap">
+						<a class="sqrcode" href="javascript:void(0);"><img src="picture/weibo185.png" title="扫一扫"
+								alt="扫一扫" /></a>
+						<a class="slink" href="javascript:void(0);">新浪微博</a>
+					</div>
+				</li>
+				<li class="slist">
+					<a class="sfocus" href="javascript:void(0);">官方微信</a>
+					<div class="sqrcode_wrap">
+						<a class="sqrcode" href="javascript:void(0);"><img src="picture/weixin185.png" title="扫一扫"
+								alt="扫一扫" /></a>
+						<a class="slink" href="javascript:void(0);">微信</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<input type="hidden" value="4" id="hidTypeId" />
+		<div id="menu" class="menu">
+			<ul class="mwrap">
+				<li class="mli">
+					<a href="index.html" class="mlink" id="topMenu1">
+						<span class="mico mico_home"><span class="micoi"></span></span>
+						<span class="mname">首页</span>
+					</a>
+				</li>
+				<li class="mli">
+					<a href="abouts.html" class="mlink curr" id="topMenu2">
+						<span class="mico mico_about"><span class="micoi"></span></span>
+						<span class="mname">关于</span>
+					</a>
+				</li>
+				<li class="mli">
+					<a href="service.html" class="mlink" id="topMenu3">
+						<span class="mico mico_service"><span class="micoi"></span></span>
+						<span class="mname">服务</span>
+					</a>
+				</li>
+				<li class="mli">
+					<a href="anli.html" class="mlink" id="topMenu4">
+						<span class="mico mico_case"><span class="micoi"></span></span>
+						<span class="mname">案例</span>
+					</a>
+				</li>
+				<li class="mli">
+					<a href="news.html" class="mlink" id="topMenu5">
+						<span class="mico mico_news"><span class="micoi"></span></span>
+						<span class="mname">动态</span>
+					</a>
+				</li>
+				<li class="mli">
+					<a href="contact.html" class="mlink" id="topMenu6">
+						<span class="mico mico_contact"><span class="micoi"></span></span>
+						<span class="mname">联系</span>
+					</a>
+				</li>
+			</ul>
+			<div class="mshadow"></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var typeid = document.getElementById("hidTypeId").value;
+
+		for (var i = 1; i <= 6; i++) {
+			if (i == typeid) {
+				document.getElementById("topMenu" + i).className = "mlink curr";
+			} else {
+				document.getElementById("topMenu" + i).className = "mlink";
+			}
+		}
+
+	</script>
+	<!-- 导航-->
+	<div class="header_bg"></div>
+	<div class="about_cont_a">
+		<div class="about_cont_aa"></div>
+		<div class="about_cont_vc"></div>
+		<div class="main">
+			<div class="about_conta_top">
+				<div class="about_conta_topl">
+					<img width="382" height="60" src="picture/case_a.jpg" />
+				</div>
+			</div>
+			<div class="coll">
+				<div class="clBody">
+					<div class="image-list">
+						<div class="">
+							<ul class="csQuery" id="csQuery">
+								<li data-type="4" class="csli"> <a class="cslPic"><img 
+											src="images/1.jpg" width="273" height="205" /></a> <a
+										class="cslName">保定市光谱电子科技有限公司</a>
+									<div class="cslDate">2019-08-02</div>
+									<div class="cslSum">光谱电子科技有限公司国内销售总公司一直立足于“以人为本，科技创新”的经营理念，始终贯彻“高效、时效、务时、诚信、发展...
+									</div>
+								</li>
+								<li data-type="4" class="csli"> <a class="cslPic"><img src="images/2.jpg" width="273"
+											height="205" /></a> <a class="cslName">河北鑫动力新能源科技有限公司</a>
+									<div class="cslDate">2019-08-02</div>
+									<div class="cslSum">
+										河北鑫动力新能源科技有限公司是精心于锂电池管理系统、太阳能光伏发电系统、锂电池及原材料研发、设计、生产、销售为一体的高新技术企业....</div>
+								</li>
+								<li data-type="4" class="csli"> <a class="cslPic"><img src="images/1.jpg" width="273"
+											height="205" /></a> <a class="cslName">保定博楷电子科技有限公司</a>
+									<div class="cslDate">2019-08-02</div>
+									<div class="cslSum">
+										电子产品研发；照明灯具、光伏设备及元器件、电光源、智能照明器具、灯用电器附件及其他照明器具制造与销售；太阳能发电工程施工...
+									</div>
+								</li>
+								<li data-type="4" class="csli"> <a class="cslPic"><img src="images/2.jpg" width="273"
+											height="205" /></a> <a class="cslName">河北欧亚照明科技有限公司</a>
+									<div class="cslDate">2019-08-02</div>
+									<div class="cslSum">
+										河北欧亚照明科技有限公司（石家庄市欧亚灯具厂）公司系河北省省级“重合同守信用企业”、“计量合格企业”、“质量信得过企业......
+									</div>
+								</li>
+								<li data-type="4" class="csli"> <a class="cslPic"><img src="images/1.jpg" width="273"
+											height="205" /></a> <a class="cslName">云南民族大学</a>
+									<div class="cslDate">2019-08-02</div>
+									<div class="cslSum">
+										云南民族大学大学生中国特色社会主义理论体系研究会...
+									</div>
+								</li>
+								<li data-type="4" class="csli"> <a class="cslPic"><img src="images/2.jpg" width="273"
+											height="205" /></a> <a class="cslName"><b>云南建水陶茗轩工艺坊</b></a>
+									<div class="cslDate">2019-08-02</div>
+									<div class="cslSum">
+										陶茗轩工艺坊创建于2004年，专业从事云南建水紫陶,云南手工艺品的制作与销售。杨华陶艺工作室的创办与建设...
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- 图片放大 -->
+						<script>
+							var tu1 = document.getElementById('img1');
+							tu1.onclick = function () {
+								tu1.style.display = "block";
+
+							}
+							tc.onclick = function () {
+								tu1.style.display = "none";
+
+							}
+
+
+						</script>
+						<img src="images/noInfo.png" style=" display:none; margin:0 auto;" />
+						<div class="nav">
+							<div class="sort-page">
+								<a>首页</a>
+								<a class="page_yes">1</a>
+								<a href="list_6_2.html">2</a>
+								<a href="list_6_3.html">3</a>
+								<a href="list_6_4.html">4</a>
+								<a href="list_6_5.html">5</a>
+								<a href="list_6_6.html">6</a>
+								<a href="list_6_7.html">7</a>
+								<a href="list_6_2.html">下一页</a>
+								<a href="list_6_15.html">末页</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 新闻结束 -->
+		<div class="webSite">
+			<ul class="wsLink">
+				<li class="wslList" style="margin-left:50px;"> <a class="wslName"
+						href="abouts.html"><span>关于我们</span></a>
+
+					<ul class="wslcQuery">
+						<li> <a>公司概况</a>
+						</li>
+						<li> <a>我们的观点</a>
+						</li>
+						<li> <a>我们的优势</a>
+						</li>
+						<li> <a>企业文化</a>
+						</li>
+					</ul>
+				</li>
+				<li class="wslList"><a class="wslName" href="abouts.html"><span>服务项目</span>
+
+						<ul class="wslcQuery">
+							<li> <a>品牌网站建设</a>
+							</li>
+							<li> <a>响应式网站</a>
+							</li>
+							<li> <a>网站优化推广</a>
+							</li>
+							<li> <a>网站运营维护</a>
+							</li>
+						</ul>
+				</li>
+				<li class="wslList"><a class="wslName" href="news.html"><span>新闻动态</span>
+
+						<ul class="wslcQuery">
+							<li> <a>公司动态</a>
+							</li>
+							<li> <a>行业资讯</a>
+							</li>
+						</ul>
+				</li>
+				<li class="wslList"><a class="wslName" href="contact.html"><span>联系我们</span>
+
+						<ul class="wslcQuery">
+							<li> <a>联系方式</a>
+							</li>
+							<li> <a>需求提交</a>
+							</li>
+						</ul>
+				</li>
+				<li class="wslList">
+					<ul class="wslcQuery">
+						<li><span class="wscKey"><img src="picture/index_hezuo6.png" alt=""></span>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+			<div class="textLink">
+
+				<div class="back">
+					<div class="tlHeader">友情链接 <span class="tlNameEn">/ LINK</span></div>
+				</div>
+
+				<ul class="linkQuery">
+					<li><a href='http://www.bdgp-led.com/' target='_blank'>保定市畅行网络技术有限公司</a>
+					</li>
+					<li><a href='https://www.11467.com/qiye/33601816.htm' target='_blank'>保定博楷电子科技有限公司</a>
+					</li>
+					<li><a href='http://www.bdgp-led.com/' target='_blank'>北京辉煌阳光科技有限公司</a>
+					</li>
+					<li><a href='http://www.bdgp-led.com/' target='_blank'>河北欧亚照明科技有限公司</a>
+					</li>
+				</ul>
+				<!-- <div class="fengexian"></div> -->
+				<div class="footerWrap">
+					<p>Copyright ? 2012-2019. 保定市畅行网络技术有限公司 版权所有</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div id="backTop" class="backTop"> <a class="btqrShow"
+					style="background-image:none;text-align:center;color:#fff;font-size:18px;line-height:66px;text-decoration:none;"
+					href="tencent://message/?uin=763976120">客服</a>
+				<div id="btqrImg" class="btqrImg">
+					<img src="picture/qq172.png" alt="返回顶部" title="返回顶部">
+				</div>
+				<a id="btqrShow" class="btqrShow" href="javascript:void(0);"></a>
+				<a id="btBtn" class="btBtn" href="javascript:void(0);"></a>
+			</div>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+			<script type="text/javascript" src="js/pictureViewer.js"></script>
+</body>
+
+</html>
